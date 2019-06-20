@@ -1,0 +1,52 @@
+
+#define BLYNK_PRINT Serial
+
+
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+
+// You should get Auth Token in the Blynk App.
+// Go to the Project Settings (nut icon).
+char auth[] = "bf5b0034654e483abed840bd9dd54dc0";
+
+// Your WiFi credentials.
+// Set password to "" for open networks.
+char ssid[] = "Sanket";
+char pass[] = "2444666668888888";
+
+int sensorPin = A0; 
+int sensorValue;  
+int limit = 300; 
+
+
+void setup()
+{
+  // Debug console
+  Serial.begin(9600);
+
+  pinMode(13, OUTPUT);
+
+  Blynk.begin(auth, ssid, pass);
+  // You can also specify server:
+  //Blynk.begin(auth, ssid, pass, "blynk-cloud.com", 80);
+  //Blynk.begin(auth, ssid, pass, IPAddress(192,168,1,100), 8080);
+}
+
+
+void loop()
+{
+  Blynk.run();
+
+  sensorValue = analogRead(sensorPin); 
+ Serial.println("Analog Value : ");
+ Serial.println(sensorValue);
+
+ Blynk.virtualWrite(V5, sensorValue);
+ 
+ if (sensorValue<limit) {
+ digitalWrite(13, HIGH); 
+ }
+ else {
+ digitalWrite(13, LOW); 
+ }
+}
