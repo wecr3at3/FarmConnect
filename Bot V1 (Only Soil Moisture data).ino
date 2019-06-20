@@ -7,12 +7,12 @@
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "bf5b0034654e483abed840bd9dd54dc0";
+char auth[] = "Your Auth Token";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Sanket";
-char pass[] = "2444666668888888";
+char ssid[] = "Your Wifi SSID";
+char pass[] = "Your Wifi Password";
 
 int sensorPin = A0; 
 int sensorValue;  
