@@ -2,17 +2,16 @@
 #include <SPI.h>
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-//#include <SimpleTimer.h>
 #include <DHT.h>
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "bf5b0034654e483abed840bd9dd54dc0"; //Enter the Auth code which was send by Blink
+char auth[] = "Your Auth Token"; //Enter the Auth code which was send by Blink
 
-char ssid[] = "Sanket";
-char pass[] = "2444666668888888";
+char ssid[] = "Your Wifi SSID";
+char pass[] = "Your Wifi Password";
 
-#define DHTPIN 2          // Digital pin 4
+#define DHTPIN 2          // Digital pin 2
 
 // Uncomment whatever type you're using!
 #define DHTTYPE DHT11     // DHT 11
