@@ -40,5 +40,5 @@ Download latest Blynk library here:
   
   # Blynk App
   
-  ![](Images/Bot%20V1%20Demo.png)
+  ![](Images/Bot V1 Demo.png)
 
