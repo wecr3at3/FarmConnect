@@ -40,5 +40,5 @@ Download latest Blynk library here:
   
   # Blynk App
   
-  <img src="Images/Bot-V1-Demo.png" hight=100>
+  <img src="Images/Bot-V1-Demo.png" height=500 alt="Blynk App Demo">
 
