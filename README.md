@@ -40,5 +40,5 @@ Download latest Blynk library here:
   
   # Blynk App
   
-  ![](Images/Bot V1 Demo.png)
+  <img src="Images/Bot-V1-Demo.png" hight=100>
 
