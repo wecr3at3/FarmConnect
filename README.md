@@ -40,5 +40,14 @@ Download latest Blynk library here:
   
   # Blynk App
   
-  <img src="Images/Bot-V1-Demo.png" height=500 alt="Blynk App Demo">
+  ## Onboard Sensor Data
+  
+  <img src="Images/Bot-V1-Demo(1).png" height=500 alt="Blynk App Demo">
+  
+  
+  ## Controls for Manual Bot Movement
+  
+  <img src="Images/Bot-V1-Demo(2).png" height=500 alt="Blynk App Demo">
+  
+  
 
