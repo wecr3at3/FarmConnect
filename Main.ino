@@ -50,8 +50,8 @@ void setup()
   pinMode(13, OUTPUT);
 
   Blynk.begin(auth, ssid, pass);
-  //Blynk.begin(auth, IPAddress(192,168,43,72), 8080);
-  //Blynk.begin(auth, ssid, pass, "192.168.43.251", 8080);
+  //Blynk.begin(auth, IPAddress(Your IP Address), 8080);
+  //Blynk.begin(auth, ssid, pass, "Your IP Adress", 8080);
   
   dht.begin();
 
