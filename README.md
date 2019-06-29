@@ -47,7 +47,7 @@ Download latest Blynk library here:
   
   ## Controls for Manual Bot Movement
   
-  <img src="Images/Bot-V1-Demo(2).png" height=500 alt="Blynk App Demo">
+  <img src="Images/Bot-V1-Demo(2).png" height=500 alt="Blynk App Demo"> <img src="Images/Bot-V1-Demo(3).png" height=500 alt="Blynk App Demo">
   
   
 
