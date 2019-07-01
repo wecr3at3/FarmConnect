@@ -7,18 +7,6 @@
   You can easily build graphic interfaces for all your
   projects by simply dragging and dropping widgets.
 
-    Downloads, docs, tutorials: http://www.blynk.cc
-    Sketch generator:           http://examples.blynk.cc
-    Blynk community:            http://community.blynk.cc
-    Follow us:                  http://www.fb.com/blynkapp
-                                http://twitter.com/blynk_app
-
-  Blynk library is licensed under MIT license
-  This example code is in public domain.
-
- *************************************************************
-  This example runs directly on ESP32 chip.
-
   Note: This requires ESP32 support package:
     https://github.com/espressif/arduino-esp32
 
@@ -39,12 +27,12 @@
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "9ff27cb80e91408c8d10b71fba7682f7";
+char auth[] = "Your Auth Code";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Sanket";
-char pass[] = "2444666668888888";
+char ssid[] = "Your Wifi SSID";
+char pass[] = "Your Wifi Password";
 
 void setup()
 {
@@ -54,7 +42,7 @@ void setup()
   Blynk.begin(auth, ssid, pass);
 }
 
-BLYNK_WRITE(V13) // V5 is the number of Virtual Pin  
+BLYNK_WRITE(V13) // V13 is the number of Virtual Pin  
 {
   int pinValue = param.asInt();
 }
