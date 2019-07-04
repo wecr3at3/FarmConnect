@@ -75,18 +75,19 @@ void sendSensor()
  }
 }
 
-
 void setup()
 {
   // Debug console
   Serial.begin(9600);
+  
+  pinMode(13, OUTPUT);
 
   Blynk.begin(auth, ssid, pass);
-}
+  
+   dht.begin();
 
-BLYNK_WRITE(V13) // V13 is the number of Virtual Pin  
-{
-  int pinValue = param.asInt();
+  // Setup a function to be called every second
+  timer.setInterval(1000L, sendSensor);
 }
 
 void loop()
