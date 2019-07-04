@@ -36,8 +36,13 @@ char auth[] = "Your Auth Code";
 char ssid[] = "Your Wifi SSID";
 char pass[] = "Your Wifi Password";
 
-#include <SPI.h>
-#include <DHT.h>
+int sensorPin = A0; 
+int sensorValue;  
+int limit = 300; 
+
+#define DHTPIN 8 
+
+#define DHTTYPE DHT11 
 
 void setup()
 {
