@@ -24,6 +24,8 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
+#include <SPI.h>
+#include <DHT.h>
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
@@ -33,6 +35,9 @@ char auth[] = "Your Auth Code";
 // Set password to "" for open networks.
 char ssid[] = "Your Wifi SSID";
 char pass[] = "Your Wifi Password";
+
+#include <SPI.h>
+#include <DHT.h>
 
 void setup()
 {
