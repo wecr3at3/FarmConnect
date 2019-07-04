@@ -44,6 +44,38 @@ int limit = 300;
 
 #define DHTTYPE DHT11 
 
+DHT dht(DHTPIN, DHTTYPE);
+SimpleTimer timer;
+
+void sendSensor()
+{
+  float h = dht.readHumidity();
+  float t = dht.readTemperature(); // or dht.readTemperature(true) for Fahrenheit
+
+  if (isnan(h) || isnan(t)) {
+    Serial.println("Failed to read from DHT sensor!");
+    return;
+  }
+  // You can send any value at any time.
+  // Please don't send more that 10 values per second.
+  Blynk.virtualWrite(V5, h);  //V5 is for Humidity
+  Blynk.virtualWrite(V6, t);  //V6 is for Temperature
+  
+  sensorValue = analogRead(sensorPin); 
+ Serial.println("Analog Value : ");
+ Serial.println(sensorValue);
+
+ Blynk.virtualWrite(V4, sensorValue); //V4 is for Soil Moisture
+ 
+ if (sensorValue<limit) {
+ digitalWrite(13, HIGH); 
+ }
+ else {
+ digitalWrite(13, LOW); 
+ }
+}
+
+
 void setup()
 {
   // Debug console
