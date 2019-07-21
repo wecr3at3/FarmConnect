@@ -66,6 +66,7 @@ const byte L298N_A_pin = D6;
 const byte L298N_A_In1_pin = D1;
 const byte L298N_A_In2_pin = D2;
 
+const byte L298N_B_pin = D0;
 const byte L298N_B_In3_pin = D3;
 const byte L298N_B_In4_pin = D4;
 
