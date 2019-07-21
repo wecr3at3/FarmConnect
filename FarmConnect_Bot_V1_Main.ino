@@ -62,6 +62,7 @@ int limit = 300;
 DHT dht(DHTPIN, DHTTYPE);
 BlynkTimer timer;
 
+const byte L298N_A_pin = D6;
 const byte L298N_A_In1_pin = D1;
 const byte L298N_A_In2_pin = D2;
 
