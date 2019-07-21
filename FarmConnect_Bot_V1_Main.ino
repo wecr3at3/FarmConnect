@@ -70,6 +70,8 @@ const byte L298N_B_pin = D0;
 const byte L298N_B_In3_pin = D3;
 const byte L298N_B_In4_pin = D4;
 
+int spd;
+
 /*
  * V0 joystick,  
  */
