@@ -52,7 +52,7 @@ int sensorPin = A0;
 int sensorValue;  
 int limit = 300;
 
-#define DHTPIN 14          // What digital pin we're connected to D5. Checkout Resourses Folder for more details
+#define DHTPIN 14          // What digital pin we're connected to D5. Checkout Resourses Folder for more details!
 
 // Uncomment whatever type you're using!
 #define DHTTYPE DHT11     // DHT 11
