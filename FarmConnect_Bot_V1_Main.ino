@@ -46,7 +46,7 @@ char auth[] = "Your Auth Token"; //Blynk Server
 // Your WiFi credentials.
 // Set password to "" for open networks.
 char ssid[] = "Your Wifi SSID";
-char pass[] = "2444666668888888";
+char pass[] = "Your Wifi Password";
 
 int sensorPin = A0; 
 int sensorValue;  
