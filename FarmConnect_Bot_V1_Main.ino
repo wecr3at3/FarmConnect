@@ -103,8 +103,6 @@ void motorSpeed(byte prmA1, byte prmA2, byte prmB1, byte prmB2)
 BLYNK_WRITE(V0) {
   int x = param[0].asInt();
   int y = param[1].asInt();
-// x =  -2 -1 0 1 2 
-// Y =  -2 -1 0 1 2 
 
  if ((x==512) && (y==512)) // Rest
  {
