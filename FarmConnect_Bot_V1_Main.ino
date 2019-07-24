@@ -93,6 +93,8 @@ void sendSensor()
 
 void motorSpeed(int prmA,byte prmA1, byte prmA2,int prmA,byte prmB1, byte prmB2)
 { 
+  analogWrite(L298N_A_pin,prmA);
+  
   digitalWrite(L298N_A_In1_pin,prmA1);
   digitalWrite(L298N_A_In2_pin,prmA2);
   digitalWrite(L298N_B_In3_pin,prmB1);
