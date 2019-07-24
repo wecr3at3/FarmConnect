@@ -91,7 +91,7 @@ void sendSensor()
   Blynk.virtualWrite(V6, t);
 }
 
-void motorSpeed(byte prmA1, byte prmA2, byte prmB1, byte prmB2)
+void motorSpeed(int prmA,byte prmA1, byte prmA2,int prmA,byte prmB1, byte prmB2)
 { 
   digitalWrite(L298N_A_In1_pin,prmA1);
   digitalWrite(L298N_A_In2_pin,prmA2);
