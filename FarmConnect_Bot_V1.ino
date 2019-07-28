@@ -28,7 +28,7 @@
 
   App project setup:
     Humidity Value Display widget attached to V5
-    Value Display widget attached to V6
+    Temperature Value Display widget attached to V6
  *************************************************************/
 
 /* Comment this out to disable prints and save space */
