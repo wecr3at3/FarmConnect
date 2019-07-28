@@ -27,7 +27,7 @@
     https://github.com/adafruit/DHT-sensor-library
 
   App project setup:
-    Value Display widget attached to V5
+    Humidity Value Display widget attached to V5
     Value Display widget attached to V6
  *************************************************************/
 
