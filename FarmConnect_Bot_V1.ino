@@ -27,6 +27,7 @@
     https://github.com/adafruit/DHT-sensor-library
 
   App project setup:
+    Soil Moisture Value Display widget attached to V4
     Humidity Value Display widget attached to V5
     Temperature Value Display widget attached to V6
  *************************************************************/
