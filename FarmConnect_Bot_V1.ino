@@ -104,7 +104,6 @@ void motorSpeed(int prmA, byte prmA1, byte prmA2, int prmB, byte prmB1, byte prm
   digitalWrite(L298N_A_In2_pin,prmA2);
   digitalWrite(L298N_B_In3_pin,prmB1);
   digitalWrite(L298N_B_In4_pin,prmB2);
-  
 }
 
 BLYNK_WRITE(V1) { //Controlling Speed of Motors
