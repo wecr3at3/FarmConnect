@@ -106,7 +106,6 @@ void motorSpeed(int prmA, byte prmA1, byte prmA2, int prmB, byte prmB1, byte prm
   digitalWrite(L298N_B_In4_pin,prmB2);
 }
 
-
 BLYNK_WRITE(V0) {
   int x = param[0].asInt();
   int y = param[1].asInt();
