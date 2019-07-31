@@ -106,9 +106,6 @@ void motorSpeed(int prmA, byte prmA1, byte prmA2, int prmB, byte prmB1, byte prm
   digitalWrite(L298N_B_In4_pin,prmB2);
 }
 
-BLYNK_WRITE(V1) { //Controlling Speed of Motors
-   spd = param.asInt(); // assigning incoming value from pin V1 to a variable
-}
 
 BLYNK_WRITE(V0) {
   int x = param[0].asInt();
