@@ -6,7 +6,7 @@ FarmConnect is an integrated platform which helps farmers to monitor their farms
 
 2. The App/Web platform - is an interface for users to access their farm's soil conditions and share that data with experts in order to seek advice on which crops will give maximum yield. 
 
-The FarmConnect Bot(Prototype v1.0)
+The FarmConnect Bot (Prototype v1.0)
 
 A fully-functional bot which captures soil data, monitors environmental conditions and send it to the Blynk server. The bot uses Arduino and NodeMCU as the hardware platform and Blynk App for controlling the bot and monitoring sensor data.
 
