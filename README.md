@@ -2,7 +2,7 @@
 
 FarmConnect is an integrated platform which helps farmers to monitor their farms and get experts advice on how to increase the yield of their crops. 
 
-### The platform has 2 major components-
+#### The platform has two major components-
 
 1. The Robot - which is deployed on the field to monitor different soil characterstics like moisture and environmental conditions like the temperature and humidity. The data collected by the bot will be stored in a server which can be accessed by farmers using their registered account on the web/mobile platform.
 
