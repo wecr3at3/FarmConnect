@@ -68,8 +68,7 @@ void loop()
  
  if (sensorValue<limit) {
  digitalWrite(13, HIGH); 
- }
- else {
+ } else {
  digitalWrite(13, LOW); 
  }
 
