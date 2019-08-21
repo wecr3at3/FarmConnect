@@ -79,8 +79,7 @@ int spd;
  * V0 joystick,  
  */
 
-void sendSensor()
-{
+void sendSensor(){
   float h = dht.readHumidity();
   float t = dht.readTemperature(); // or dht.readTemperature(true) for Fahrenheit
 
