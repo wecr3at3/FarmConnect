@@ -55,12 +55,11 @@ void setup()
   timer.setInterval(1000L, sendSensor);
 }
 
-
 void loop()
 {
   Blynk.run();
 
-  sensorValue = analogRead(sensorPin); 
+ sensorValue = analogRead(sensorPin); 
  Serial.println("Analog Value : ");
  Serial.println(sensorValue);
 
