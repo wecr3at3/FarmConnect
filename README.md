@@ -51,4 +51,10 @@ Download latest Blynk library here:
   
   <img src="Images/Bot-V1-Demo(2).png" height=500 alt="Blynk App Demo"> <img src="Images/Bot-V1-Demo(3).png" height=500 alt="Blynk App Demo">
   
+  # Hardware
+  
+  ## ESP8266 NodeMCU
+  
+  <img src="Resourses/NodeMCU_GPIOs.png" height=500 alt="NodeMCU Pinouts"> 
+  
   
